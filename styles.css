@@ -1,13 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Fraunces&display=swap");
+
 body {
     background: orange;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container {
     background: yellow;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfumePic {
+    /* width auto scales height as well. */
+    width: 300px;
 }
 
 .card {
     background: blue;
+    width: 300px;
+    max-height: 75vh;
 }
 
 .perfume {
@@ -22,10 +38,27 @@ body {
     background: purple;
 }
 
+.header > h1 {
+    font-family: 'Fraunces', sans-serif;
+}
+
+/* Combinator. Selects all the children. */
+.header > p {
+    font-size: 14px;
+}
+
 .footer {
     background: brown;
 }
 
+.price,
+.oldPrice {
+    font-family: 'Fraunces', sans-serif;
+}
+
 .cartButton {
     background: green;
+
+    display: flex;
+    gap: 10px;
 }
