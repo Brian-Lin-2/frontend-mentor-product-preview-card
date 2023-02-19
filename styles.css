@@ -1,0 +1,31 @@
+body {
+    background: orange;
+}
+
+.container {
+    background: yellow;
+}
+
+.card {
+    background: blue;
+}
+
+.perfume {
+    background: pink;
+}
+
+.type {
+    background: gray;
+}
+
+.header {
+    background: purple;
+}
+
+.footer {
+    background: brown;
+}
+
+.cartButton {
+    background: green;
+}
