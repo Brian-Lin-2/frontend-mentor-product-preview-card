@@ -23,7 +23,6 @@ body {
 .card {
     background: blue;
     width: 300px;
-    max-height: 75vh;
 }
 
 .card__text {
@@ -38,8 +37,17 @@ body {
     background: gray;
 }
 
+.info__name {
+    font-family: 'Fraunces', sans-serif;
+}
+
 .footer {
     background: purple;
+}
+
+.footer__price,
+.footer__oldPrice {
+    font-family: 'Fraunces', sans-serif;
 }
 
 .cartButton {
