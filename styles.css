@@ -4,6 +4,9 @@
 body {
     background: hsl(30, 38%, 92%);
     font-family: 'Montserrat', sans-serif;
+
+    /* Find out why font-weight doesn't work. */
+    font-weight: 500px;
 }
 
 .container {
@@ -38,6 +41,7 @@ body {
 
 .card__type {
     background: pink;
+    font-size: 14px;
 }
 
 .info {
@@ -57,14 +61,32 @@ body {
     background: purple;
 }
 
+.footer__price {
+    color: hsl(158, 36%, 37%);
+}
+
 .footer__price,
-.footer__oldPrice {
+.footer__oldPrice,
+.cartButton__text {
     font-family: 'Fraunces', sans-serif;
 }
 
 .cartButton {
-    background: green;
-
     display: flex;
+    justify-content: center;
     gap: 10px;
+
+    background: hsl(158, 36%, 37%);
+    border-radius: 10px;
+}
+
+.cartButton__text {
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+}
+
+.card__type,
+.info__desc,
+.footer__oldPrice {
+    color: hsl(228, 12%, 48%);
 }
