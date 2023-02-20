@@ -2,12 +2,11 @@
 @import url("https://fonts.googleapis.com/css?family=Fraunces&display=swap");
 
 body {
-    background: orange;
+    background: hsl(30, 38%, 92%);
     font-family: 'Montserrat', sans-serif;
 }
 
 .container {
-    background: yellow;
     min-height: 100vh;
 
     display: flex;
@@ -21,12 +20,20 @@ body {
 }
 
 .card {
-    background: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: hsl(0, 0%, 100%);
     width: 300px;
 }
 
 .card__text {
+    display: flex;
+    flex-direction: column;
+
     background: brown;
+    max-width: 275px;
 }
 
 .card__type {
@@ -39,6 +46,11 @@ body {
 
 .info__name {
     font-family: 'Fraunces', sans-serif;
+    font-size: 30px;
+}
+
+.info__desc {
+    font-size: 14px;
 }
 
 .footer {
