@@ -15,7 +15,7 @@ body {
     align-items: center;
 }
 
-.perfumePic {
+.card__image {
     /* width auto scales height as well. */
     width: 300px;
 }
@@ -26,34 +26,20 @@ body {
     max-height: 75vh;
 }
 
-.perfume {
-    background: pink;
-}
-
-.type {
-    background: gray;
-}
-
-.header {
-    background: purple;
-}
-
-.header > h1 {
-    font-family: 'Fraunces', sans-serif;
-}
-
-/* Combinator. Selects all the children. */
-.header > p {
-    font-size: 14px;
-}
-
-.footer {
+.card__text {
     background: brown;
 }
 
-.price,
-.oldPrice {
-    font-family: 'Fraunces', sans-serif;
+.card__type {
+    background: pink;
+}
+
+.info {
+    background: gray;
+}
+
+.footer {
+    background: purple;
 }
 
 .cartButton {
