@@ -35,34 +35,45 @@ body {
     display: flex;
     flex-direction: column;
 
-    background: brown;
     max-width: 275px;
 }
 
 .card__type {
-    background: pink;
-    font-size: 14px;
-}
-
-.info {
-    background: gray;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 5px;
 }
 
 .info__name {
     font-family: 'Fraunces', sans-serif;
     font-size: 30px;
+    margin-top: 0;
 }
 
 .info__desc {
     font-size: 14px;
 }
 
-.footer {
-    background: purple;
+.footer--flex {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    font-size: 12px;
+
+    padding-bottom: 10px;
 }
 
 .footer__price {
     color: hsl(158, 36%, 37%);
+    font-size: 30px;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.footer__oldPrice {
+    text-decoration: line-through;
 }
 
 .footer__price,
@@ -74,15 +85,16 @@ body {
 .cartButton {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 5px;
 
     background: hsl(158, 36%, 37%);
     border-radius: 10px;
+    padding: 5px;
 }
 
 .cartButton__text {
     color: hsl(0, 0%, 100%);
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .card__type,
