@@ -107,3 +107,22 @@ body {
 .footer__oldPrice {
     color: hsl(228, 12%, 48%);
 }
+
+/* Desktop support. */
+@media screen and (min-width: 375px) {
+    .card__image {
+        content: url(/images/image-product-desktop.jpg);
+
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .card {
+        flex-direction: row;
+        width: 600px;
+        gap: 40px;
+
+        padding-bottom: 0;
+        padding-right: 25px;
+    }
+}
