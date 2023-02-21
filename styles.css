@@ -20,6 +20,8 @@ body {
 .card__image {
     /* width auto scales height as well. */
     width: 300px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 .card {
@@ -29,6 +31,9 @@ body {
 
     background: hsl(0, 0%, 100%);
     width: 300px;
+    
+    border-radius: 10px;
+    padding-bottom: 20px;
 }
 
 .card__text {
