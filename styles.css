@@ -126,9 +126,25 @@ body {
         padding-right: 25px;
     }
 
+    .footer--flex {
+        padding: 20px 0px;
+    }
+
+    .cartButton {
+        padding: 0px;
+    }
+
     /* Active state. */
     .cartButton:hover {
         cursor: pointer;
         background: hsl(158, 36%, 20%);
+    }
+
+    .card__type {
+        padding-bottom: 30px;
+    }
+
+    .card__text {
+        padding-bottom: 30px;
     }
 }
